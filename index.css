@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top left, rgb(243, 117, 58), rgb(61, 122, 227));
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 20vb;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.tage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.mainanimation{
+    display: flex;
+    height: 30vh;
+    width: 200%;
+    margin-bottom: 5vh;
+    justify-content: space-around;
+}
+.animation1{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    animation-name: animationDiv1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+ 
+}
+@keyframes animationDiv1 {
+    0%{
+        transform: translate(-100vw);}
+    100%{
+        transform: translate(100vw);} 
+}
+.animation2{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    animation-name: animationDiv2;
+    animation-duration: 15s;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+ 
+}
+@keyframes animationDiv2 {
+    0%{
+        transform: translate(-100vw);}
+    100%{
+        transform: translate(100vw);} 
+}
+
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+   
+}
+
+
+table{
+    width: 100%;
+    margin-bottom: 5vh;
+}
+tr{
+    display: flex;
+    justify-content: space-around;}
+
+    th{
+        font-size: larger;
+    }
+th:hover{
+    background-color: rgb(108, 80, 229);
+    scale: 1.2;
+    border-radius: 5px;
+    color:aliceblue;
+}
+a{
+    color: black;
+}
+.Resistition{
+    color: rgb(23, 34, 198);
+}
+.footer{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(51, 46, 46);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
