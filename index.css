@@ -74,7 +74,7 @@ img{
 
 .ancor{
     display: grid;
-
+margin-bottom: 4vh;
     grid-template-columns: repeat(6,2fr);
     grid-template-rows: repeat(2,1fr);
     gap: 2px;

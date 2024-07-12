@@ -3,16 +3,36 @@
     padding: 0;
 }
  #cantainer{
+    height: auto;
     display: flex;
     flex-direction:column ;
     align-items: center;
     background-color: aqua;
+    padding-bottom: 5vh;
+}
+button{
+    height: 8vh;
+    width: 15vw;
+    font-size: x-large;
+    background-color: rgb(126, 219, 126);
+    border-radius: 10px;
 }
 
 #Side{
     background-color: aqua;
-    border: 1mm groove rgb(109, 109, 227);
+    border: 1mm double rgb(109, 109, 227);
+    border-radius: 10px;
     width: 50%;
     display: flex;
     justify-content: center;
+}
+@media (max-width:800px) {
+    #Side{
+        width: 75%;
+    }
+}
+@media (max-width:450px) {
+    #Side{
+        width: 95%;
+    }
 }
