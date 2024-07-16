@@ -19,6 +19,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 h1{
     height: 20vh;
@@ -26,6 +27,12 @@ h1{
     justify-content: center;
     align-items: center;
     font-size: 7vw;
+    background-image: url(i2.jpg);
+background-position: center;
+background-size: cover;
+background-clip: text; 
+-webkit-background-clip: text;
+    color: transparent;
 }
 .main{
     height: 100%;
@@ -113,5 +120,9 @@ a{
     .ancor{
         grid-template-columns: repeat(3,2fr);
         grid-template-rows: repeat(2,1fr); 
+    }
+    body{
+    width: 100vw;
+
     }
 }
