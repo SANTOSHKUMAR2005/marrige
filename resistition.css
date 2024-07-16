@@ -13,7 +13,7 @@
 button{
     height: 8vh;
     width: 15vw;
-    font-size: x-large;
+    font-size: 100%;
     background-color: rgb(126, 219, 126);
     border-radius: 10px;
 }
